@@ -10,7 +10,7 @@ class FabricaCalculadoraJuros(private val provedorIndicadoresService: ProvedorIn
 
         return when (tipoFinanciamento) {
             TipoFinanciamento.IPCA -> CalculadoraIPCA(indicadoresFinanceiros)
-            TipoFinanciamento.TR -> throw NotImplementedError()
+            TipoFinanciamento.TR -> CalculadoraTR(indicadoresFinanceiros)
             TipoFinanciamento.TAXA_FIXA -> CalculadoraTaxaFixa(indicadoresFinanceiros)
         }
     }

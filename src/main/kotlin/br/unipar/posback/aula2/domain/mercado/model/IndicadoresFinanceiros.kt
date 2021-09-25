@@ -4,5 +4,6 @@ import java.math.BigDecimal
 
 data class IndicadoresFinanceiros(
     val percentualIPCA: BigDecimal,
-    val percentualJurosTaxaFixa: BigDecimal
+    val percentualJurosTaxaFixa: BigDecimal,
+    val percentualTR: BigDecimal
 )
