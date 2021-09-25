@@ -40,11 +40,4 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
     useJUnitPlatform()
-    testLogging {
-        events(FAILED, STANDARD_ERROR, SKIPPED)
-        exceptionFormat = FULL
-        showExceptions = true
-        showCauses = true
-        showStackTraces = true
-    }
 }
