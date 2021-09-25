@@ -24,7 +24,7 @@ class FabricaCalculadoraJurosTest {
         @JvmStatic
         fun proverInstanciasPorTipoDeFinanciamento() = listOf(
             Arguments.of(TipoFinanciamento.TAXA_FIXA, CalculadoraTaxaFixa::class.java),
-//            Arguments.of(TipoFinanciamento.TR, CalculadoraTaxaFixa::class.java),
+            Arguments.of(TipoFinanciamento.TR, CalculadoraTR::class.java),
             Arguments.of(TipoFinanciamento.IPCA, CalculadoraIPCA::class.java)
         )
 

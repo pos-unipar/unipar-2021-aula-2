@@ -18,6 +18,7 @@ class CalculadoraTaxaFixaTest {
 
         val indicadoresFinanceiros = IndicadoresFinanceiros(
             percentualIPCA = BigDecimal.ZERO,
+            percentualTR = BigDecimal.ZERO,
             percentualJurosTaxaFixa = BigDecimal.valueOf(percentualJuros)
         )
 
@@ -33,6 +34,7 @@ class CalculadoraTaxaFixaTest {
 
         val indicadoresFinanceiros = IndicadoresFinanceiros(
             percentualIPCA = BigDecimal.ZERO,
+            percentualTR = BigDecimal.ZERO,
             percentualJurosTaxaFixa = percentualJurosInvalido
         )
 
