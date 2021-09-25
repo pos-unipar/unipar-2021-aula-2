@@ -1,5 +1,7 @@
 # unipar-2021-aula-2
 
+![badge](https://github.com/djonathanb/unipar-2021-aula-2/actions/workflows/test-CI.yml/badge.svg)
+
 ## Glossário
 
 **Tipo Financiamento:**
