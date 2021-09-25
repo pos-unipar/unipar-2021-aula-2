@@ -17,7 +17,7 @@ class SimuladorServiceTest {
     @ParameterizedTest
     @MethodSource("proverParametrosParaTaxaFixa")
     fun `deve simular um emprestimo de Taxa Fixa`(prazoFinanciamento: Int, quantidadeMesesEsperada: Int, custoTotalEsperado: Double) {
-        val taxaJurosEsperada = BigDecimal.valueOf(10.0)
+        val taxaJurosEsperada = BigDecimal.valueOf(9.0)
         val taxasAdicionaisEsperadas = BigDecimal.ONE
         val custoEfetivoTotalEsperado = BigDecimal.valueOf(10.0)
 
